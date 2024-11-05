@@ -1,5 +1,4 @@
 ### Esercizio 01-Palindroma
-Palidroma
 Chiediamo all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma
 
@@ -23,11 +22,18 @@ Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzion
 Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
-Consigli del giorno
-1. Scriviamo sempre in italiano i passaggi che vogliamo fare
-2. Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
-Domande da  farsi quando si crea una funzione:
-1. Come dovrebbe chiamarsi?
-2. Ho bisogno di parametri?
-3. Devo restituire un valore?
-4. Se sì, di che tipo?
+
+### Dati
+Informazione dall'utente Pari o Dispari
+Numero scelto dall'utente tra 1 e 5
+Numero random tra 1 e 5 per il computer
+
+### Esecuzione Logica
+Variabile per salvare la scelta dell'utente tra Pari o Dispari
+Variabile per salvare numeroUtente scelto tra 1 e 5
+creo una funziona che genera numeri casuali generica (nel notro caso min=1 e max=5)
+utilizzo la funzione per generare il numero scelto dal computer
+faccio la somma del numero scelto dall'utente e quella dal computer
+creo una funzione per verificare se la somma e' pari o dispari
+richiamo la funzione per verificare se la somma e' pari o dispari
+dichirazione del vincitore
